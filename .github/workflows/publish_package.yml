@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - push_to_ghcr
 
 env:
   IMAGE_BACKEND_NAME: 'outline'
